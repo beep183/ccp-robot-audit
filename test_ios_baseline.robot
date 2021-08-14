@@ -3,7 +3,7 @@ Library    ccplib.CCPLib    ${CONFIG_FILE}    ${CONFIG_DIR}
 Suite Setup    Open Config File
 
 *** Variables ***
-${CONFIG_DIR}    ../../configs
+${CONFIG_DIR}    configs
 ${CONFIG_FILE}    DEN-EDGE01.ios.conf
 
 *** Keywords ***
